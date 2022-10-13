@@ -11,7 +11,7 @@ public class destinos_disponiveisDAO {
 
 	public void save(destinos_disponiveis destinos_disponiveis) {
 		
-		String sql = "INSERT INTO cliente(destino, valor) VALUES (?,?)";
+		String sql = "INSERT INTO destinos_disponiveis(destino, valor) VALUES (?,?)";
 	
 		Connection con=null;
 		PreparedStatement pstm = null;
@@ -22,7 +22,7 @@ public class destinos_disponiveisDAO {
 			pstm = (PreparedStatement) con.prepareStatement(sql);
 			
 			pstm.setString(1, destinos_disponiveis.getDestino());
-			pstm.setFloat(2, destinos_disponiveis.getValor());
+			pstm.setString(2, destinos_disponiveis.getValor());
 					
 			pstm.execute();
 		

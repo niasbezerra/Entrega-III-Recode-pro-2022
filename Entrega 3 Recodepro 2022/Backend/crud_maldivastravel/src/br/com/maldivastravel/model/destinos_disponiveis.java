@@ -3,7 +3,7 @@ package br.com.maldivastravel.model;
 public class destinos_disponiveis {
 	private int id_destino;
 	private String destino;
-	private float valor;
+	private String valor;
 	public int getId_destino() {
 		return id_destino;
 	}
@@ -16,12 +16,13 @@ public class destinos_disponiveis {
 	public void setDestino(String destino) {
 		this.destino = destino;
 	}
-	public float getValor() {
+	public String getValor() {
 		return valor;
 	}
-	public void setValor(float valor) {
+	public void setValor(String valor) {
 		this.valor = valor;
 	}
+	
 		
 	
 }
