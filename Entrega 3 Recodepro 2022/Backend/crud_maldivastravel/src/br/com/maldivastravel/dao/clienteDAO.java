@@ -11,7 +11,7 @@ public class clienteDAO {
 	public void save(cliente cliente) {
 		
 		String sql = "INSERT INTO cliente(nome, email, senha, destino_interesse) VALUES (?,?,?,?)";
-		
+	
 		Connection con=null;
 		PreparedStatement pstm = null;
 		
