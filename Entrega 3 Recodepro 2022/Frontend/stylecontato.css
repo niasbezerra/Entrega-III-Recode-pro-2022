@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+.banner-image {
+    background-image: url(Maldives.jpg);
+    background-size: cover;}
+
+.navbar-brand{
+    font-family: 'Leckerli One', cursive;
+}
+
+h1 {
+    font-family: 'Leckerli One', cursive;
+    color: white;
+    font-size: 5em;
+    text-shadow:  1px 1px 2px black;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: pink;
+    text-shadow: 1px 1px 2px black;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    
+}
+nav{
+    background-image: linear-gradient(to right, violet,mediumpurple,royalblue);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.448);
+  
+}
+
+.form-control-sm {
+    width: 50%;
+  height: 50%;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(to right, violet,mediumpurple,royalblue);}
+
+footer > p > a {
+color: white;
+}
+.main{
+    align-items: center;
+}
+.btn { margin: 5px;
+       
