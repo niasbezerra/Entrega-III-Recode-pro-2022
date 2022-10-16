@@ -6,18 +6,34 @@ import br.com.maldivastravel.model.cliente;
 public class main {
 
 	public static void main(String[] args) {
-		
+
 		clienteDAO clienteDAO = new clienteDAO();		
 		cliente cliente = new cliente();
 		
-
-		cliente.setNome("Madonna Delafuente");
-		cliente.setEmail("bDelafuentee@gmail.com");
-		cliente.setSenha("9632145"); 
-		cliente.setDestino_interesse("sao paulo");
+	
+		cliente.setNome("maria de lordes bezerra da silva");
+		cliente.setEmail("katy@gmail.com");
+		cliente.setSenha("36985214"); 
+		cliente.setDestino_interesse("piaui");
 		
-		clienteDAO.save(cliente);
-
+		//clienteDAO.save(cliente);
+		
+		cliente cli = new cliente();
+		cli.setId_cliente(8);
+		cli.setNome("raines");
+		cli.setEmail("raines@hotmail.com");
+		cli.setSenha("888844444");
+		cli.setDestino_interesse("maldivas");
+				
+		//clienteDAO.update(cli);	
+			
+		clienteDAO.deleteByID(1);
+		
+		for(cliente c : clienteDAO.getcliente()) {
+			System.out.println("Cliente salvo");
+			
+		}
+		
 	}
 
 }

@@ -37,6 +37,14 @@ public class cliente {
 	public void setDestino_interesse(String destino_interesse) {
 		this.destino_interesse = destino_interesse;
 	}
+	public void add(cliente cliente) {
+		// TODO Auto-generated method stub
+		
+	}
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	
 	

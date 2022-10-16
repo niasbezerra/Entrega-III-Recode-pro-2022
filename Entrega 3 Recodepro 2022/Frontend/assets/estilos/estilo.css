@@ -1,0 +1,7 @@
+body {
+    min-width: 372px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, violet,mediumpurple,royalblue);
+}
