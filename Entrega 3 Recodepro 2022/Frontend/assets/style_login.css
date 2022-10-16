@@ -1,0 +1,36 @@
+
+
+body {
+  background-color: lightblue;
+}
+
+
+.navbar-brand{
+    font-family: 'Leckerli One', cursive;
+}
+
+.form-cadastro {
+	height: 100vh;
+}
+
+.area-form {
+	height:70vh;
+}
+
+#cadastrar {
+	margin: 0.2em;
+	
+}
+
+#cancelar {
+	margin:0.2em;
+	
+}
+
+.form-control {
+	margin:0.2em;
+}
+
+.row justify-content center mb-4 {
+	max-width:25px;
+}
